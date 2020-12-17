@@ -1,0 +1,7 @@
+D:\Blacksheep\20201214만듬\20201214\20201217work\slip2\slip2\obj\Debug\slip2.csprojAssemblyReference.cache
+D:\Blacksheep\20201214만듬\20201214\20201217work\slip2\slip2\obj\Debug\slip2.csproj.CoreCompileInputs.cache
+D:\Blacksheep\20201214만듬\20201214\20201217work\slip2\slip2\bin\Debug\slip2.exe.config
+D:\Blacksheep\20201214만듬\20201214\20201217work\slip2\slip2\bin\Debug\slip2.exe
+D:\Blacksheep\20201214만듬\20201214\20201217work\slip2\slip2\bin\Debug\slip2.pdb
+D:\Blacksheep\20201214만듬\20201214\20201217work\slip2\slip2\obj\Debug\slip2.exe
+D:\Blacksheep\20201214만듬\20201214\20201217work\slip2\slip2\obj\Debug\slip2.pdb

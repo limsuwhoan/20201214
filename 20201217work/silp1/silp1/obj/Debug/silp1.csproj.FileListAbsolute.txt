@@ -1,0 +1,7 @@
+D:\Blacksheep\20201214만듬\20201214\20201217work\silp1\silp1\bin\Debug\silp1.exe.config
+D:\Blacksheep\20201214만듬\20201214\20201217work\silp1\silp1\bin\Debug\silp1.exe
+D:\Blacksheep\20201214만듬\20201214\20201217work\silp1\silp1\bin\Debug\silp1.pdb
+D:\Blacksheep\20201214만듬\20201214\20201217work\silp1\silp1\obj\Debug\silp1.csprojAssemblyReference.cache
+D:\Blacksheep\20201214만듬\20201214\20201217work\silp1\silp1\obj\Debug\silp1.csproj.CoreCompileInputs.cache
+D:\Blacksheep\20201214만듬\20201214\20201217work\silp1\silp1\obj\Debug\silp1.exe
+D:\Blacksheep\20201214만듬\20201214\20201217work\silp1\silp1\obj\Debug\silp1.pdb
