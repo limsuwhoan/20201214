@@ -13,17 +13,19 @@ namespace slip3
             Console.WriteLine("피라미드");
             int a = int.Parse(Console.ReadLine());
         
-            for (int i = 1; 1<a ; i++)
-            {                   
-                    Console.WriteLine("*");
-                }
-            for(int i=1; 1<a*1; i++) { 
+            for (int i = 1; 1<=a ; i++)
             {
-                     Console.WriteLine("");
-            }
+                int e, f;
+                for int(
+                    Console.WriteLine("*");
+                    Console.WriteLine("");
+                }          
+            {
+                  
+            
                 
             }
         
         }
     }
-}
+
