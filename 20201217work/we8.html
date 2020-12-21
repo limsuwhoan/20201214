@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            counter-increment: byunsoo; 
+            /*p태그가 늘어날때마다 증가하는 변수*/
+        }
+        p::before
+        {
+            content: counter(byunsoo)"." /*p태그 시작전에 카운터 변수 삽입*/
+        }
+        p::after
+        {
+            content: "-" attr(data-page)"-page";/*p태그 끝에 page 번호 삽입*/
+        }
+        p::first-letter
+        {
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Lorem, ipsum dolor.</h1>
+    <P data-page="52">Lorem ipsum dolor sit.</P>
+    <P data-page="152">Lorem ipsum dolor sit amet consectetur.</P>
+</body>
+</html>
