@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeCaption(cap) {
+            document.getElementById("fruit").innerText = cap;
+        }
+    </script>
+  <!-- 쌍따옴표 안에는 홑따옴표가 역슬레시 없이 그냥 들어갈수 있다  -->
+  <!-- 홑따옴표 안에는 쌍따옴표가 역슬레시 없이 그냥 들어갈수 있다  -->
+  <!-- 쌍따옴표 안에 쌍따옴표 쓰려면 역슬레시 를 넣어야됨 "\"이\"름";  -->
+  <!-- 홑따옴표도 동일  -->
+</head>
+
+<body>
+    <h1 id="fruit">과일</h1>
+    <input type="button" value="Apple" onclick="changeCaption('Apple')">
+    <input type="button" value="Orange" onclick="changeCaption('Orange')">
+
+</body>
+
+</html>

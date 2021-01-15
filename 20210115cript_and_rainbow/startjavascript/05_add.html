@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <input id="one" type="text"> <span>+</span>
+    <input id="two" type="text"><span>=</span>
+    <span id="result">버튼을 누르면 결과값이나옴 </span>
+    <div>
+        <input value="합" type="button" onclick="sum()">
+    </div>
+
+    <input id="one1" type="text"> <span>-</span>
+    <input id="two2" type="text"><span>=</span>
+    <span id="result2">버튼을 누르면 결과값이나옴 </span>
+    <div>
+        <input value="뺄셈" type="button" onclick="sum2()">
+    </div>
+
+    <input id="one11" type="text"> <span>÷</span>
+    <input id="two21" type="text"><span>=</span>
+    <span id="result21">버튼을 누르면 결과값이나옴 </span>
+    <div>
+        <input value="나눗셈" type="button" onclick="sum21()">
+    </div>
+
+    <input id="one111" type="text"> <span>x</span>
+    <input id="two211" type="text"><span>=</span>
+    <span id="result211">버튼을 누르면 결과값이나옴 </span>
+    <div>
+        <input value="곱셈" type="button" onclick="sum211()">
+    </div>
+
+    <script>
+        function sum() {
+            var one = document.getElementById('one').value;
+            var two = document.getElementById('two').value;
+            alert(Number(one) + Number(two));
+            document.getElementById('result').innerText = Number(one) + Number(two);
+        }
+
+        function sum2() {
+            var one1 = document.getElementById('one1').value;
+            var two2 = document.getElementById('two2').value;
+            alert(Number(one1) - Number(two2));
+            document.getElementById('result2').innerText = Number(one1) - Number(two2);
+        }
+
+        function sum21() {
+            var one11 = document.getElementById('one11').value;
+            var two21 = document.getElementById('two21').value;
+            alert(Number(one11) / Number(two21));
+            document.getElementById('result21').innerText = Number(one11) / Number(two21);
+        }
+
+        function sum211() {
+            var one111 = document.getElementById('one111').value;
+            var two211 = document.getElementById('two211').value;
+            alert(Number(one111) * Number(two211));
+            document.getElementById('result211').innerText = Number(one111) * Number(two211);
+        }
+    </script>
+</body>
+
+</html>
