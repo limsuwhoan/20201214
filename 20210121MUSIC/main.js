@@ -10,7 +10,7 @@
 //398p
 //많이 쓰이는 건 documnet 객체를 많이 씀
 // window.addEventListener('load',   function () {
-$(document).ready(function () {
+    $(document).ready(function () {
 
         //클래스명이 sound인 것을 모두 선택함(=불러옴)
         // const sounds = document.querySelectorAll(".sound");
@@ -37,16 +37,7 @@ $(document).ready(function () {
             "brown"
         ];
 
-        //재생되는 음악이 끝나면, .visual에서 비쥬얼과 제목 제거
-        // sounds.forEach(
-        //     function (soundFile) {
-        //         soundFile.onended = function () {
-        //             visual.innerHTML = "";
-        //             title.innerHTML = "";
-        //         }
-        //     }
-
-        // );
+       
         sounds.each(function (index, soundFile) {
                 soundFile.onended = function () {
                     visual.next('');
@@ -92,7 +83,7 @@ $(document).ready(function () {
                     //뮤직 제목을 출력해 준다.
                     //console.log(sounds[index].src) ;
                     //sound/1.mp3
-                    const strArray = sounds[index].src.split("sound1/");
+                    const strArray = sounds[index].src.split("music/");
                    // console.log(strArray[0]);
                    //console.log(strArray[1]);
                     title.text(strArray[1]);
