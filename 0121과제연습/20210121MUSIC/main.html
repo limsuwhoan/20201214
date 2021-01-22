@@ -8,104 +8,67 @@
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
     <title>Document</title>
-    <style>
-        h1 {
-
-
-            margin-right: 100px;
-
-
-
-
-            color: rgb(129, 102, 48);
-        }
-
-        h5 {
-            color: blue;
-            font-size: 800%;
-
-            position: absolute;
-        }
-
-        h2 {
-            margin-left: 69%;
-            background-color: rgb(32, 34, 34);
-        }
-
-        body {
-            background-position: center;
-            background-image: url(./music/감정.jpg);
-        }
-
-        img {
-            position: absolute;
-
-            left: 69%;
-            bottom: 54%;
-            height: 400px;
-            width: 730px;
-        }
-    </style>
-</head>
 
 <body>
-    <img width="600" src="./music/1d6a51e9367704dac16c891822b216e0.gif" alt="HappyNEWyear">
+    <!-- <img width="600" src="./music/1d6a51e9367704dac16c891822b216e0.gif" alt="HappyNEWyear"> -->
     <div class="app">
 
-        <header>
-
-            <li style="color: blue;">We Listen to the music</li>
-            <h1 font-size: 580%;>Play List.</h1>
-            <h1 style="color: white;">●슬픔<br> ●행복<br> ●공포<br> ●신남 <br>●웅장 <br>●감동<div></div>
-            </h1>
-            <div>
-                <h5 style="text-align: right;">BGM</h5>
-            </div>
-            <h2 style="font-size: 50px;">"Sometimes music makes me sad, excited, and happy."</h2>
-            <h2 style="font-size: 38px;">"Sometimes music makes me sad, excited, and happy."
-                Lorem ipsum dolor sit amet consectetur.ipsum lorem dolor sit. ipsum dolor sit amet consectetur adipisicing elit.
-                Doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </h2>
-        </header>
 
         <div class="visual"></div>
         <p class="title"></p>
-        <div class="pads">
-            <div class="pad1">
-                <h1>신남</h1>
-                <audio class="sound" src="./music/수정본2.mp3"></audio>
-            </div>
-            <div class="pad2">
-                <h1>행복</h1>
-                <audio class="sound" src="music/Happiness Up.mp3"></audio>
-            </div>
-            <div class="pad3">
-                <h1>슬픔</h1>
-                <audio class="sound"
-                    src="music/Harace Kim - The Melody For Delight (Reworked 2.0) (192kbps).mp3"></audio>
-            </div>
-            <div class="pad4">
-                <h1>공포</h1>
-                <audio class="sound" src="music/horor-b.mp3"></audio>
-            </div>
-            <div class="pad5">
-                <h1>감동</h1>
-                <audio class="sound" src="music/I love you, Grandma.mp3"></audio>
-            </div>
-            <div class="pad6">
-                <h1>웅장</h1>
-                <audio class="sound" src="music/파랜드 택틱스 2 - 시간을 관리하는 자.mp3"></audio>
-            </div>
+        
+        <div>
+            <h1 style="font-size:120px; ">Play List.</h1>
+            <h1 style="color: white;">●슬픔<br> ●행복<br> ●공포<br> ●신남 <br>●웅장 <br>●감동<div></div>
+            </h1>
+        </div>
+        <div>
+            <h1 id="h5">BGM</h5>
+        </div>
+        <div id="bottom">
 
+            <div id="h2">
+                <h2 style="font-size: 55px;">"Sometimes music makes me sad, excited, and happy."</h2>
+                <h2 style="font-size: 30px;">"Sometimes music makes me sad, excited, and happy."
+                    Lorem ipsum dolor sit amet.
+            </div>
+            <div class="pads">
+                <div class="pad1">
+                    <h1>[신남]</h1>
+                    <audio class="sound" src="./music/수정본2.mp3"></audio>
+                </div>
+                <div class="pad2">
+                    <h1>[행복]</h1>
+                    <audio class="sound" src="music/Happiness Up.mp3"></audio>
+                </div>
+                <div class="pad3">
+                    <h1>[슬픔]</h1>
+                    <audio class="sound"
+                        src="music/Harace Kim - The Melody For Delight (Reworked 2.0) (192kbps).mp3"></audio>
+                </div>
+                <div class="pad4">
+                    <h1>[공포]</h1>
+                    <audio class="sound" src="music/horor-b.mp3"></audio>
+                </div>
+                <div class="pad5">
+                    <h1>[감동]</h1>
+                    <audio class="sound" src="music/I love you, Grandma.mp3"></audio>
+                </div>
+                <div class="pad6">
+                    <h1>[웅장]</h1>
+                    <audio class="sound" src="music/파랜드 택틱스 2 - 시간을 관리하는 자.mp3"></audio>
+                </div>
+    
+            </div>
         </div>
     </div>
 
-    <body>
+    
 
 
-    </body>
+    
 
     <script src="main.js"></script>
-    
+
 
 </html>

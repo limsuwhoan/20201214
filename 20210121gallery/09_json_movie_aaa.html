@@ -75,7 +75,7 @@
         y = y.getFullYear()+""+month+""+day;
         console.log(y);
         const date = y; //어제 날짜를 넣어 준다.
-
+        
         const apiUrl = `http://www.kobis.or.kr/kobisopenapi/webservice/rest/boxoffice/searchDailyBoxOfficeList.json?key=${"555dcb8701c50d7416cc5e737a37a57d"}&targetDt=${date}`;
         console.log(apiUrl);
         const boxOfficeType = document.querySelector('.boxOfficeType');

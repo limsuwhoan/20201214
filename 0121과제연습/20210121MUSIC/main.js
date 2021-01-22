@@ -61,7 +61,7 @@
             const bubble = $("<div></div>");
       
             visual.append(bubble);
-            bubble.css('background', colors[index]).css('top', '300px').
+            bubble.css('background', colors[index]).css('top', '500px').
             css('animation', 'animation 2000ms linear infinite both')
         }
 
