@@ -1,0 +1,162 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>자바스크립트 예제</title>
+    <style>
+        body
+        {
+            color: black;
+            background-color: white;
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        body{
+            text-align: center;
+
+        }
+        h1 {
+            margin: 20px auto;
+        }
+        button {
+            padding: 5px 5px;
+            margin: 5px 5px;
+        }
+
+        input {
+            padding: 10px;
+        
+        }
+        ul{
+            width: px;
+            margin: 10px auto;
+            text-align: left;
+        }
+        ul li {
+            padding: 8px;
+            list-style-type: none;
+            border-bottom: 1px solid gray;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        ul li:hover {
+            background: rgb(231, 193, 193);
+        }
+
+        ul li div img {
+            float: left;
+            margin: 0px 0px;
+            border-radius: 300px;
+        }
+
+        .video-player {
+            max-width: 640px;
+            position: relative;
+            margin: 20px auto;
+        }
+
+        .embed-responsive-16by9 {
+            height: 0;
+            padding-top: 2%;
+            padding-bottom:20%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>유튜브 영화 예고편 검색</h1>
+<p>영화제목으로 예고편을 감상하세요.</p>
+<p style="font-size: 35px;"> 어서어서!!</p>
+<!-- 유튜브 재생 영역 -->
+<div class="youtube-container home-youtube-container embed-responsive embed-responsive-item videoPlayer embed-responsive-16by9"><iframe src="//www.youtube.com/embed/pmUCT0lXRSk?autoplay=1" allowfullscreen="" width="560" height="315" frameborder="0"></iframe></div>
+
+<label style="font-size: 25px;" for="search">영화검색:</label>
+<input type="search" id="search" name="search" placeholder="영화제목을 이곳에 입력해 주세요." size="40px" onkeyup="inputkeyup(event)">
+<button type="button" onclick="ajaxRequest()">검색</button>
+
+<ul class="list"><li><div onclick="updateVideo('0JkGnIBIDvs')"><img src="https://i.ytimg.com/vi/0JkGnIBIDvs/mqdefault.jpg"><h3>데스노트 - 공식 예고편 - Netflix</h3><p>초자연적 노트가 가진 힘에 도취된 한 젊은이는 자신이 생각하기에 살아 있을 가치가 없는 이들을 죽이기 시작한다. 일본의 인기 만화를 원작으로 한 작품이다.</p></div></li><li><div onclick="updateVideo('QbsYEsgfN-E')"><img src="https://i.ytimg.com/vi/QbsYEsgfN-E/mqdefault.jpg"><h3>영화 &amp;#39;데스노트: 더 뉴 월드&amp;#39; 메인 예고편</h3><p>[서울신문 기사원문] http://stv.seoul.co.kr/news/newsView.php?id=20170306500150 영상제공: 디스테이션.</p></div></li><li><div onclick="updateVideo('Uae0mZhcgI4')"><img src="https://i.ytimg.com/vi/Uae0mZhcgI4/mqdefault.jpg"><h3>확 바뀐 미국판 데스노트 예고편 &amp;quot;흑형L과 싱크로율 쩌는 류크와 야가미 라이토&amp;quot;</h3><p>일본 최강의 주간만화잡지 소년 점프에서 2004년 연재를 시작해 엄청난 인기를 얻었던 작품이자 오바타 타케시X오바 츠구미의 파격적인 작화와 스토리의 결정체 ...</p></div></li><li><div onclick="updateVideo('pmUCT0lXRSk')"><img src="https://i.ytimg.com/vi/pmUCT0lXRSk/mqdefault.jpg"><h3>데스노트 – 티저 예고편 – 오직 넷플릭스에서만</h3><p>"당신이 모든 사람의 생사를 결정할 수 있다면 어떨까? 오바 츠구미와 오바타 타케시의 만화 '데스노트'를 원작으로 한 넷플릭스 오리지널 영화 '데스노트'는 한 ...</p></div></li><li><div onclick="updateVideo('uTM26KVV1eo')"><img src="https://i.ytimg.com/vi/uTM26KVV1eo/mqdefault.jpg"><h3>플래티넘 엔드 공식 1차 예고편(한글자막), &amp;#39;데스노트&amp;#39;와 &amp;#39;바쿠만&amp;#39; 콤비의 또 하나의 레전드 작품이 애니메이션화!</h3><p>번역은 오역이나 의역이 있을 수 있습니다. 미흡하더라도 너그러이 양해 부탁드립니다. ^^ 구독하기 : http://bitly.kr/OFLVg #Animehero #아니메히어로 #애니메 ...</p></div></li></ul>
+
+<script>
+    const v = document.querySelector('.videoPlayer');
+
+    //iframe 추가하고 비디오 재생
+    function updateVideo(id){
+
+        v.classList.add("embed-responsive-16by9");
+        v.innerHTML = '<iframe src="//www.youtube.com/embed/' 
+            + id + '?autoplay=1" width="560" height="315" frameborder="0" allowfullscreen></iframe>';
+
+        document.body.scrollTop = document.documentElement.scrollTop = 0;
+    }
+    
+    //엔터키 이벤트
+    function inputkeyup(e){
+        if(e.keyCode == 13){
+            ajaxRequest();
+        }
+        
+    }
+
+    //jQuery를 사용하지 않고 Vanilla JS를 사용하자. 비동기로 호출한다.
+    function ajaxRequest(){
+
+        const search = document.getElementById("search");
+        const ul = document.querySelector(".list");
+
+        if(search.value.length == 0){
+            alert("검색어를 입력하세요.");
+            search.focus();
+            return false;
+        } else {
+            query = "공식 예고편 " +  search.value;
+            search.value = "";
+            search.focus();
+        }
+
+        const key = "AIzaSyBQxbnHScTivEvbklk-G-qrbJWWNHRrGNQ";
+        const url = `https://www.googleapis.com/youtube/v3/search?key=${key}&q=${query}&part=snippet&type=video`;
+
+        //ul 일단 비우고 시작
+        ul.innerHTML = "";
+
+        const xhr = new XMLHttpRequest();
+        xhr.onreadystatechange = function() {
+            if(this.readyState == 4 && this.status == 200){
+                //파싱
+                const jsonObj = JSON.parse(this.response);
+
+                console.log(jsonObj['items']);
+                const videoList = jsonObj["items"];
+                videoList.forEach(element => {
+                    const li = document.createElement('li');
+                    const div = document.createElement('Div');
+                    const img = document.createElement('img');
+                    const h3 = document.createElement('h3');
+                    const p1 = document.createElement('p');
+
+                    h3.textContent = element["snippet"]["title"];
+                    img.src = element["snippet"]["thumbnails"]["medium"]["url"];
+                    p1.textContent = element["snippet"]["description"];
+                    //div.setAttribute("data-id", element["id"]["videoId"]);
+                    div.setAttribute("onClick", `updateVideo('${element["id"]["videoId"]}')`);
+
+                    div.appendChild(img);
+                    div.appendChild(h3);
+                    div.appendChild(p1);
+                    li.appendChild(div);
+                    ul.appendChild(li);
+
+                });
+            }
+        };
+        xhr.open("GET", url, true);
+        xhr.send();
+    }
+
+</script>
+    
+
+</body>
