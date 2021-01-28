@@ -1,0 +1,5 @@
+C:\Users\KB\Desktop\20210128수업\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20210128수업\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\계산기.Form1.resources
+C:\Users\KB\Desktop\20210128수업\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\KB\Desktop\20210128수업\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20210128수업\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.csproj.CoreCompileInputs.cache
