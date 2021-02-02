@@ -16,7 +16,7 @@ public class Num3main {
 	for (int i = 0; i < 2; i++) {
 		st[i]=new Student(name[i], num[i], gender[i]);
 	}
-	
+
       st[i].setNum(2019038033);
       for (int i = 0; i < st.length; i++) {
 	st[i].showStudentclassInfo();	
