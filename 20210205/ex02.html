@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style>
+        #pp {
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+    <p id="pp"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur voluptatum earum, culpa mollitia
+        error accusamus, suscipit cupiditate excepturi at magni aperiam eligendi ad? Porro fugit corporis animi fuga,
+        eos assumenda!</p>
+    <p id="pp1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, sequi? Eius atque culpa deserunt? Omnis
+        minima quasi quae recusandae atque nemo laudantium harum minus, nostrum laborum nisi. Dignissimos, odit minus.
+    </p>
+    <button id="pbtn1">jacascript버튼</button>
+    <button id="pbtn2">jquery버튼</button>
+</body>
+
+</html>
+<script>
+    document.getElementById("pbtn1").onclick = function () {
+        // alert("눌럿다")
+        if (document.getElementById("pp").style.display == "none")
+            document.getElementById("pp").style.display = "block";
+        else
+            document.getElementById("pp").style.display = "none";
+        // alert(a);
+    }
+</script>
+<script>
+    $("#pbtn2").click(function () {
+        $("#pp").toggle(2500, function () {
+            $("#pp1").toggle(2500, function () {
+                alert("끝났음")
+            });
+        });
+    })
+</script>
