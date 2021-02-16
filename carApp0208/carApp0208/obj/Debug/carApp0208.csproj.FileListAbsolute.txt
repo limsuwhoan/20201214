@@ -1,0 +1,14 @@
+E:\kb_c#_work\carApp0208\carApp0208\bin\Debug\carApp0208.exe.config
+E:\kb_c#_work\carApp0208\carApp0208\bin\Debug\carApp0208.exe
+E:\kb_c#_work\carApp0208\carApp0208\bin\Debug\carApp0208.pdb
+E:\kb_c#_work\carApp0208\carApp0208\obj\Debug\carApp0208.csprojAssemblyReference.cache
+E:\kb_c#_work\carApp0208\carApp0208\obj\Debug\carApp0208.csproj.CoreCompileInputs.cache
+E:\kb_c#_work\carApp0208\carApp0208\obj\Debug\carApp0208.exe
+E:\kb_c#_work\carApp0208\carApp0208\obj\Debug\carApp0208.pdb
+C:\Users\KB\Desktop\20210209\20201214\carApp0208\carApp0208\bin\Debug\carApp0208.exe.config
+C:\Users\KB\Desktop\20210209\20201214\carApp0208\carApp0208\bin\Debug\carApp0208.exe
+C:\Users\KB\Desktop\20210209\20201214\carApp0208\carApp0208\bin\Debug\carApp0208.pdb
+C:\Users\KB\Desktop\20210209\20201214\carApp0208\carApp0208\obj\Debug\carApp0208.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20210209\20201214\carApp0208\carApp0208\obj\Debug\carApp0208.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20210209\20201214\carApp0208\carApp0208\obj\Debug\carApp0208.exe
+C:\Users\KB\Desktop\20210209\20201214\carApp0208\carApp0208\obj\Debug\carApp0208.pdb

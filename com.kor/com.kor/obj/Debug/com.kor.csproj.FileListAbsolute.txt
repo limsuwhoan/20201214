@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\20210209\20201214\com.kor\com.kor\bin\Debug\com.kor.exe.config
+C:\Users\KB\Desktop\20210209\20201214\com.kor\com.kor\bin\Debug\com.kor.exe
+C:\Users\KB\Desktop\20210209\20201214\com.kor\com.kor\bin\Debug\com.kor.pdb
+C:\Users\KB\Desktop\20210209\20201214\com.kor\com.kor\obj\Debug\com.kor.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20210209\20201214\com.kor\com.kor\obj\Debug\com.kor.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20210209\20201214\com.kor\com.kor\obj\Debug\com.kor.exe
+C:\Users\KB\Desktop\20210209\20201214\com.kor\com.kor\obj\Debug\com.kor.pdb
