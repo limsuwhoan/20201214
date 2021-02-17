@@ -66,7 +66,7 @@ public class SerialMain {
 				System.out.println("TV_ON");
 				try {
 					serial.writeInt(CMD_TV_ON );
-				} catch (SerialPortException e) {					// TODO Auto-generated catch block
+				} catch (SerialPortException e) {
 					e.printStackTrace();
 				}
 				break;
@@ -74,7 +74,7 @@ public class SerialMain {
 				System.out.println("TV_OFF");
 				try {
 					serial.writeInt(CMD_TV_OFF);
-				} catch (SerialPortException e) {					// TODO Auto-generated catch block
+				} catch (SerialPortException e) {					
 					e.printStackTrace();
 				}
 				break;
@@ -83,7 +83,7 @@ public class SerialMain {
 				System.out.println("∫∏¿œ∑Ø_ON");
 				try {
 					serial.writeInt(CMD_HOTTER_ON);
-				} catch (SerialPortException e) {					// TODO Auto-generated catch block
+				} catch (SerialPortException e) {					
 					e.printStackTrace();
 				}
 				break;

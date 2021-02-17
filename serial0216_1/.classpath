@@ -6,7 +6,7 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/KB/Desktop/20210209/20210215/20201214/serial0216/lib/jssc-2.9.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/KB/Desktop/20210209/20210215/20201214/serial0216/lib/slf4j-jdk14-1.7.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KB/Desktop/20210209/20200216/20210216/20201214/serial0216_1/lib/jssc-2.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/KB/Desktop/20210209/20200216/20210216/20201214/serial0216_1/lib/slf4j-jdk14-1.7.9.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
