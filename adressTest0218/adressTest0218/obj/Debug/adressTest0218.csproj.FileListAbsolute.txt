@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\adressTest0218\adressTest0218\bin\Debug\adressTest0218.exe.config
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\adressTest0218\adressTest0218\bin\Debug\adressTest0218.exe
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\adressTest0218\adressTest0218\bin\Debug\adressTest0218.pdb
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\adressTest0218\adressTest0218\obj\Debug\adressTest0218.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\adressTest0218\adressTest0218\obj\Debug\adressTest0218.exe
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\adressTest0218\adressTest0218\obj\Debug\adressTest0218.pdb
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\adressTest0218\adressTest0218\obj\Debug\adressTest0218.csprojAssemblyReference.cache
