@@ -1,4 +1,4 @@
-package serial0217;
+package com.Lsw.serialApp;
 
 import java.util.Scanner;
 
@@ -6,7 +6,7 @@ import jssc.SerialPort;
 import jssc.SerialPortException;
 import jssc.SerialPortList;
 
-public class SerialMain2 {
+public class SerialMain {
 	public static final String ADMIN_ID = "admin";
 	public static final String GUEST_ID = "guest";
 	public static final String ADMIN_PW = "1234";
