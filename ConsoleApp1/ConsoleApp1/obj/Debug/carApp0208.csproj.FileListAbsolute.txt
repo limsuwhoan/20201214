@@ -1,0 +1,2 @@
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\ConsoleApp1\ConsoleApp1\obj\Debug\carApp0208.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20210209\20200216\20210216\20201214\ConsoleApp1\ConsoleApp1\obj\Debug\carApp0208.csproj.CoreCompileInputs.cache
