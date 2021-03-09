@@ -1,0 +1,6 @@
+C:\Users\KB\Desktop\20201214\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\addrWin0302\addrWin0302\obj\Debug\addrWin0302.UI.AddForm.resources
+C:\Users\KB\Desktop\20201214\addrWin0302\addrWin0302\obj\Debug\addrWin0302.MainForm.resources
+C:\Users\KB\Desktop\20201214\addrWin0302\addrWin0302\obj\Debug\addrWin0302.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\addrWin0302\addrWin0302\obj\Debug\addrWin0302.csproj.CoreCompileInputs.cache

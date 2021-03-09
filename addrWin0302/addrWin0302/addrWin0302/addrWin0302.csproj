@@ -63,35 +63,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="addrWin0302\control\StudentHandler.cs" />
-    <Compile Include="addrWin0302\model\Student.cs" />
-    <Compile Include="addrWin0302\obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
-    <Compile Include="addrWin0302\Program.cs" />
-    <Compile Include="addrWin0302\Properties\AssemblyInfo.cs" />
-    <Compile Include="addrWin0302\Properties\Resources.Designer.cs" />
-    <Compile Include="addrWin0302\Properties\Settings.Designer.cs" />
-    <Compile Include="addrWin0302\UI\AddForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="addrWin0302\UI\AddForm.Designer.cs">
-      <DependentUpon>AddForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="addrWin0302\UI\MainForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="addrWin0302\UI\MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="addrWin0302\UI\MyMenu.cs" />
-    <Compile Include="addrWin0302\UI\ViewForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="addrWin0302\UI\ViewForm.Designer.cs">
-      <DependentUpon>ViewForm.cs</DependentUpon>
-    </Compile>
-    <Compile Include="addrWin0302\util\Menu.cs" />
-    <Compile Include="addrWin0302\util\MyMenu.cs" />
-    <Compile Include="addrWin0302\util\RandData.cs" />
     <Compile Include="control\StudentHandler.cs" />
     <Compile Include="model\Student.cs" />
     <Compile Include="UI\AddForm.cs">
@@ -110,19 +81,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\MyMenu.cs" />
     <Compile Include="util\Menu.cs" />
-    <EmbeddedResource Include="addrWin0302\obj\Debug\addrWin0302.MainForm.resources" />
-    <EmbeddedResource Include="addrWin0302\obj\Debug\addrWin0302.Properties.Resources.resources" />
-    <EmbeddedResource Include="addrWin0302\obj\Debug\addrWin0302.UI.AddForm.resources" />
-    <EmbeddedResource Include="addrWin0302\Properties\Resources.resx" />
-    <EmbeddedResource Include="addrWin0302\UI\AddForm.resx">
-      <DependentUpon>AddForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="addrWin0302\UI\MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="addrWin0302\UI\ViewForm.resx">
-      <DependentUpon>ViewForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="UI\AddForm.resx">
       <DependentUpon>AddForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,13 +96,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <None Include="addrWin0302\addrWin0302.csproj" />
-    <None Include="addrWin0302\App.config" />
-    <None Include="addrWin0302\obj\Debug\addrWin0302.csproj.CoreCompileInputs.cache" />
-    <None Include="addrWin0302\obj\Debug\addrWin0302.csproj.GenerateResource.cache" />
-    <None Include="addrWin0302\packages.config" />
-    <None Include="addrWin0302\Properties\Settings.settings" />
-    <None Include="addrWin0302\res\addr.webp" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -160,19 +111,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="addrWin0302\obj\Debug\addrWin0302.csproj.FileListAbsolute.txt" />
-    <Content Include="addrWin0302\ReadMePng\APIKeys.png" />
-    <Content Include="addrWin0302\ReadMePng\Deploy.png" />
-    <Content Include="addrWin0302\ReadMePng\MetaData.png" />
-    <Content Include="addrWin0302\ReadMePng\Nuget.png" />
-    <Content Include="addrWin0302\ReadMePng\NugetAPIKeys.png" />
-    <Content Include="addrWin0302\ReadMePng\NuPackNugetPackager.png" />
-    <Content Include="addrWin0302\ReadMePng\Options.png" />
-    <Content Include="addrWin0302\ReadMePng\类库上右键.png" />
-    <Content Include="addrWin0302\res\addr1.jpg" />
-    <Content Include="addrWin0302\res\addr2.png" />
-    <Content Include="addrWin0302\res\addr3.png" />
-    <Content Include="addrWin0302\res\addr4.jpg" />
     <Content Include="ReadMePng\APIKeys.png" />
     <Content Include="ReadMePng\Deploy.png" />
     <Content Include="ReadMePng\MetaData.png" />
@@ -182,9 +120,6 @@
     <Content Include="ReadMePng\Options.png" />
     <Content Include="ReadMePng\类库上右键.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="addrWin0302\bin\Debug\" />
-    <Folder Include="addrWin0302\obj\Debug\TempPE\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
