@@ -1,0 +1,300 @@
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+MILLER     ACCOUNTING           1300          2
+CLARK      ACCOUNTING           2450          4
+KING       ACCOUNTING           5000          5
+SMITH      RESEARCH              800          1
+ADAMS      RESEARCH             1100          1
+JONES      RESEARCH             2975          4
+SCOTT      RESEARCH             3000          4
+FORD       RESEARCH             3000          4
+JAMES      SALES                 950          1
+WARD       SALES                1250          2
+MARTIN     SALES                1250          2
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+TURNER     SALES                1500          3
+ALLEN      SALES                1600          3
+BLAKE      SALES                2850          4
+
+14개 행이 선택되었습니다. 
+
+
+      급여총액       급여평균       최대급여       최소급여
+---------- ---------- ---------- ----------
+     29025 2073.21429       5000        800
+
+
+  직업 종류 개수
+----------
+         5
+
+
+     부서 번호      급여 평균
+---------- ----------
+        30 1566.66667
+        10 2916.66667
+        20       2175
+
+
+       DNO JOB         COUNT(*) SUM(SALARY)
+---------- --------- ---------- -----------
+        10 CLERK              1        1300
+        10 MANAGER            1        2450
+        10 PRESIDENT          1        5000
+        20 ANALYST            2        6000
+        20 CLERK              2        1900
+        20 MANAGER            1        2975
+        30 CLERK              1         950
+        30 MANAGER            1        2850
+        30 SALESMAN           4        5600
+
+9개 행이 선택되었습니다. 
+
+
+       DNO MAX(SALARY)
+---------- -----------
+        30        2850
+        10        5000
+        20        3000
+
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+MILLER     ACCOUNTING           1300          2
+CLARK      ACCOUNTING           2450          4
+KING       ACCOUNTING           5000          5
+SMITH      RESEARCH              800          1
+ADAMS      RESEARCH             1100          1
+JONES      RESEARCH             2975          4
+SCOTT      RESEARCH             3000          4
+FORD       RESEARCH             3000          4
+JAMES      SALES                 950          1
+WARD       SALES                1250          2
+MARTIN     SALES                1250          2
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+TURNER     SALES                1500          3
+ALLEN      SALES                1600          3
+BLAKE      SALES                2850          4
+
+14개 행이 선택되었습니다. 
+
+
+      급여총액       급여평균       최대급여       최소급여
+---------- ---------- ---------- ----------
+     29025 2073.21429       5000        800
+
+
+  직업 종류 개수
+----------
+         5
+
+
+     부서 번호      급여 평균
+---------- ----------
+        30 1566.66667
+        10 2916.66667
+        20       2175
+
+
+       DNO JOB         COUNT(*) SUM(SALARY)
+---------- --------- ---------- -----------
+        10 CLERK              1        1300
+        10 MANAGER            1        2450
+        10 PRESIDENT          1        5000
+        20 ANALYST            2        6000
+        20 CLERK              2        1900
+        20 MANAGER            1        2975
+        30 CLERK              1         950
+        30 MANAGER            1        2850
+        30 SALESMAN           4        5600
+
+9개 행이 선택되었습니다. 
+
+
+       DNO MAX(SALARY)
+---------- -----------
+        30        2850
+        10        5000
+        20        3000
+
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+MILLER     ACCOUNTING           1300          2
+CLARK      ACCOUNTING           2450          4
+KING       ACCOUNTING           5000          5
+SMITH      RESEARCH              800          1
+ADAMS      RESEARCH             1100          1
+JONES      RESEARCH             2975          4
+SCOTT      RESEARCH             3000          4
+FORD       RESEARCH             3000          4
+JAMES      SALES                 950          1
+WARD       SALES                1250          2
+MARTIN     SALES                1250          2
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+TURNER     SALES                1500          3
+ALLEN      SALES                1600          3
+BLAKE      SALES                2850          4
+
+14개 행이 선택되었습니다. 
+
+
+      급여총액       급여평균       최대급여       최소급여
+---------- ---------- ---------- ----------
+     29025 2073.21429       5000        800
+
+
+  직업 종류 개수
+----------
+         5
+
+
+     부서 번호      급여 평균
+---------- ----------
+        30 1566.66667
+        10 2916.66667
+        20       2175
+
+
+       DNO JOB         COUNT(*) SUM(SALARY)
+---------- --------- ---------- -----------
+        10 CLERK              1        1300
+        10 MANAGER            1        2450
+        10 PRESIDENT          1        5000
+        20 ANALYST            2        6000
+        20 CLERK              2        1900
+        20 MANAGER            1        2975
+        30 CLERK              1         950
+        30 MANAGER            1        2850
+        30 SALESMAN           4        5600
+
+9개 행이 선택되었습니다. 
+
+
+       DNO MAX(SALARY)
+---------- -----------
+        30        2850
+        10        5000
+        20        3000
+
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+MILLER     ACCOUNTING           1300          2
+CLARK      ACCOUNTING           2450          4
+KING       ACCOUNTING           5000          5
+SMITH      RESEARCH              800          1
+ADAMS      RESEARCH             1100          1
+JONES      RESEARCH             2975          4
+SCOTT      RESEARCH             3000          4
+FORD       RESEARCH             3000          4
+JAMES      SALES                 950          1
+WARD       SALES                1250          2
+MARTIN     SALES                1250          2
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+TURNER     SALES                1500          3
+ALLEN      SALES                1600          3
+BLAKE      SALES                2850          4
+
+14개 행이 선택되었습니다. 
+
+선택된 행 없음
+
+      급여총액       급여평균       최대급여       최소급여
+---------- ---------- ---------- ----------
+     29025 2073.21429       5000        800
+
+
+  직업 종류 개수
+----------
+         5
+
+
+     부서 번호      급여 평균
+---------- ----------
+        30 1566.66667
+        10 2916.66667
+        20       2175
+
+
+       DNO JOB         COUNT(*) SUM(SALARY)
+---------- --------- ---------- -----------
+        10 CLERK              1        1300
+        10 MANAGER            1        2450
+        10 PRESIDENT          1        5000
+        20 ANALYST            2        6000
+        20 CLERK              2        1900
+        20 MANAGER            1        2975
+        30 CLERK              1         950
+        30 MANAGER            1        2850
+        30 SALESMAN           4        5600
+
+9개 행이 선택되었습니다. 
+
+
+       DNO MAX(SALARY)
+---------- -----------
+        30        2850
+        10        5000
+        20        3000
+
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+선택된 행 없음
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+MILLER     ACCOUNTING           1300          2
+CLARK      ACCOUNTING           2450          4
+KING       ACCOUNTING           5000          5
+SMITH      RESEARCH              800          1
+ADAMS      RESEARCH             1100          1
+JONES      RESEARCH             2975          4
+SCOTT      RESEARCH             3000          4
+FORD       RESEARCH             3000          4
+JAMES      SALES                 950          1
+WARD       SALES                1250          2
+MARTIN     SALES                1250          2
+
+ENAME      DNAME              SALARY      GRADE
+---------- -------------- ---------- ----------
+TURNER     SALES                1500          3
+ALLEN      SALES                1600          3
+BLAKE      SALES                2850          4
+
+14개 행이 선택되었습니다. 
+
+
+ENAME             DNO
+---------- ----------
+SMITH              20
+JONES              20
+SCOTT              20
+ADAMS              20
+FORD               20
+
