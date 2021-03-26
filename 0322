@@ -1,0 +1,35 @@
+
+명령의 1 행에서 시작하는 중 오류 발생 -
+CREATE TABLE testtable
+(
+    c_id       INT             NULL, 
+    c_name     VARCHAR2(20)    NULL, 
+    c_addr     VARCHAR2(20)    NULL, 
+    c_email    VARCHAR2(20)    NULL, 
+    CONSTRAINT TESTTABLE_PK PRIMARY KEY (c_id)
+)
+오류 보고 -
+ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:
+
+Table SELLER_1이(가) 생성되었습니다.
+
+
+명령의 1 행에서 시작하는 중 오류 발생 -
+CREATE TABLE seller_1
+(
+    se_id             INT             NOT NULL, 
+    se_name           VARCHAR2(20)    NOT NULL, 
+    se_tel            VARCHAR2(20)    NOT NULL, 
+    se_email          VARCHAR2(20)    NULL, 
+    se_likwi          VARCHAR2(10)    NOT NULL, 
+    se_office_name    VARCHAR2(20)    NOT NULL, 
+    CONSTRAINT SELLER_1_PK PRIMARY KEY (se_id)
+)
+오류 보고 -
+ORA-00955: 기존의 객체가 이름을 사용하고 있습니다.
+00955. 00000 -  "name is already used by an existing object"
+*Cause:    
+*Action:

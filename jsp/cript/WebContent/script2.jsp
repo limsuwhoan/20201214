@@ -21,6 +21,7 @@
 	<div><h1>덧셈 결과: <%=sum(100,50) %></h1></div>
 	<div><h1>뺄셈 결과: <%=sub(100,50) %></h1></div>
 	<div>this.num: <%=this.num %></div>
-	<div>num: <%=num %> </div>
+	<div>
+	 num : <%=num %> </div>
 </body>
 </html>

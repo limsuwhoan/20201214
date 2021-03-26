@@ -1,0 +1,16 @@
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\obj\Debug\carmanager0323.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\obj\Debug\carmanager0323.MainForm.resources
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\obj\Debug\carmanager0323.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\obj\Debug\carmanager0323.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\obj\Debug\carmanager0323.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\bin\Debug\carmanager0323.exe.config
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\bin\Debug\carmanager0323.exe
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\bin\Debug\carmanager0323.pdb
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\bin\Debug\CxFlatUI.dll
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\bin\Debug\MaterialSkin.dll
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\bin\Debug\SunnyUI.Common.dll
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\bin\Debug\SunnyUI.dll
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\obj\Debug\carmanager0323.csproj.CopyComplete
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\obj\Debug\carmanager0323.exe
+C:\Users\KB\Desktop\20201214\cshop\carmanager0323\carmanager0323\obj\Debug\carmanager0323.pdb
