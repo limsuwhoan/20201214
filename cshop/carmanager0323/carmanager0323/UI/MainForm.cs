@@ -1,4 +1,5 @@
-﻿using MaterialSkin.Controls;
+﻿using CarManager0323.DB;
+using MaterialSkin.Controls;
 using System;
 using System.Windows.Forms;
 
@@ -33,6 +34,21 @@ public partial class MainForm : MaterialForm
         private void dropTB_Click(object sender, EventArgs e)
         {
             ora.dropAllTB();
+        }
+
+        private void uiButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uiSymbolButton7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void uiSymbolButton1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
