@@ -81,7 +81,7 @@ namespace CarManager0323.UI
             this.custTel.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.custTel.FillColor = System.Drawing.Color.White;
             this.custTel.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.custTel.Location = new System.Drawing.Point(170, 132);
+            this.custTel.Location = new System.Drawing.Point(170, 174);
             this.custTel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.custTel.Maximum = 2147483647D;
             this.custTel.Minimum = -2147483648D;
@@ -111,7 +111,7 @@ namespace CarManager0323.UI
             this.custAddress.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.custAddress.FillColor = System.Drawing.Color.White;
             this.custAddress.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.custAddress.Location = new System.Drawing.Point(170, 171);
+            this.custAddress.Location = new System.Drawing.Point(170, 135);
             this.custAddress.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.custAddress.Maximum = 2147483647D;
             this.custAddress.Minimum = -2147483648D;
@@ -154,7 +154,7 @@ namespace CarManager0323.UI
             // 
             this.uiSymbolLabel5.BackColor = System.Drawing.Color.Transparent;
             this.uiSymbolLabel5.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolLabel5.Location = new System.Drawing.Point(25, 129);
+            this.uiSymbolLabel5.Location = new System.Drawing.Point(25, 170);
             this.uiSymbolLabel5.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel5.Name = "uiSymbolLabel5";
             this.uiSymbolLabel5.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);
@@ -182,7 +182,7 @@ namespace CarManager0323.UI
             // 
             this.uiSymbolLabel2.BackColor = System.Drawing.Color.Transparent;
             this.uiSymbolLabel2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolLabel2.Location = new System.Drawing.Point(25, 167);
+            this.uiSymbolLabel2.Location = new System.Drawing.Point(25, 132);
             this.uiSymbolLabel2.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSymbolLabel2.Name = "uiSymbolLabel2";
             this.uiSymbolLabel2.Padding = new System.Windows.Forms.Padding(28, 0, 0, 0);

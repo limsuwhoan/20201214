@@ -39,8 +39,6 @@ namespace CarManager0323
             this.insertSeller = new Sunny.UI.UISymbolButton();
             this.insertDeal = new Sunny.UI.UISymbolButton();
             this.appExit = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton1 = new Sunny.UI.UISymbolButton();
-            this.uiSymbolButton2 = new Sunny.UI.UISymbolButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +46,7 @@ namespace CarManager0323
             // 
             this.createTB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.createTB.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.createTB.Location = new System.Drawing.Point(679, 133);
+            this.createTB.Location = new System.Drawing.Point(479, 130);
             this.createTB.MinimumSize = new System.Drawing.Size(1, 1);
             this.createTB.Name = "createTB";
             this.createTB.Size = new System.Drawing.Size(143, 35);
@@ -60,7 +58,7 @@ namespace CarManager0323
             // 
             this.dropTB.Cursor = System.Windows.Forms.Cursors.Hand;
             this.dropTB.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.dropTB.Location = new System.Drawing.Point(679, 244);
+            this.dropTB.Location = new System.Drawing.Point(479, 202);
             this.dropTB.MinimumSize = new System.Drawing.Size(1, 1);
             this.dropTB.Name = "dropTB";
             this.dropTB.Size = new System.Drawing.Size(143, 35);
@@ -85,7 +83,7 @@ namespace CarManager0323
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-2, 63);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(675, 301);
+            this.pictureBox1.Size = new System.Drawing.Size(475, 301);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
@@ -142,7 +140,7 @@ namespace CarManager0323
             // 
             this.appExit.Cursor = System.Windows.Forms.Cursors.Hand;
             this.appExit.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.appExit.Location = new System.Drawing.Point(635, 460);
+            this.appExit.Location = new System.Drawing.Point(411, 460);
             this.appExit.MinimumSize = new System.Drawing.Size(1, 1);
             this.appExit.Name = "appExit";
             this.appExit.Size = new System.Drawing.Size(157, 35);
@@ -150,37 +148,11 @@ namespace CarManager0323
             this.appExit.Text = "프로그램 종료";
             this.appExit.Click += new System.EventHandler(this.appExit_Click);
             // 
-            // uiSymbolButton1
-            // 
-            this.uiSymbolButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiSymbolButton1.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton1.Location = new System.Drawing.Point(621, 383);
-            this.uiSymbolButton1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiSymbolButton1.Name = "uiSymbolButton1";
-            this.uiSymbolButton1.Size = new System.Drawing.Size(157, 35);
-            this.uiSymbolButton1.TabIndex = 9;
-            this.uiSymbolButton1.Text = "도움말";
-            this.uiSymbolButton1.Click += new System.EventHandler(this.uiSymbolButton1_Click_1);
-            // 
-            // uiSymbolButton2
-            // 
-            this.uiSymbolButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.uiSymbolButton2.Font = new System.Drawing.Font("Microsoft YaHei", 12F);
-            this.uiSymbolButton2.Location = new System.Drawing.Point(411, 460);
-            this.uiSymbolButton2.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiSymbolButton2.Name = "uiSymbolButton2";
-            this.uiSymbolButton2.Size = new System.Drawing.Size(157, 35);
-            this.uiSymbolButton2.TabIndex = 10;
-            this.uiSymbolButton2.Text = "고객정보보기";
-            this.uiSymbolButton2.Click += new System.EventHandler(this.uiSymbolButton2_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(854, 516);
-            this.Controls.Add(this.uiSymbolButton2);
-            this.Controls.Add(this.uiSymbolButton1);
+            this.ClientSize = new System.Drawing.Size(628, 516);
             this.Controls.Add(this.appExit);
             this.Controls.Add(this.insertDeal);
             this.Controls.Add(this.insertSeller);
@@ -210,8 +182,6 @@ namespace CarManager0323
         private Sunny.UI.UISymbolButton insertSeller;
         private Sunny.UI.UISymbolButton insertDeal;
         private Sunny.UI.UISymbolButton appExit;
-        private Sunny.UI.UISymbolButton uiSymbolButton1;
-        private Sunny.UI.UISymbolButton uiSymbolButton2;
     }
 }
 

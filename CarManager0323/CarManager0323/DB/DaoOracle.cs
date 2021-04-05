@@ -2,6 +2,7 @@
 using Oracle.ManagedDataAccess.Client;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -148,10 +149,10 @@ namespace CarManager0323.DB
             {
                 string query = "create table Seller (" + "s_id  INT  NOT NULL," +
                     "s_name VARCHAR2(20) NOT NULL," +
-                    "s_tel VARCHAR2(20) NOT NULL," +
-                    "s_email VARCHAR2(20) NOT NULL," +
+                    "s_tel VARCHAR2(50) NOT NULL," +
+                    "s_email VARCHAR2(50) NOT NULL," +
                     "s_spot VARCHAR2(20) NULL," +
-                    "s_business VARCHAR2(20) NOT NULL," +
+                    "s_business VARCHAR2(50) NOT NULL," +
                     " CONSTRAINT SELLER_PK PRIMARY KEY (s_id))";
                 cmd.Connection = conn;
                 cmd.CommandText = query;
@@ -270,7 +271,7 @@ namespace CarManager0323.DB
             try
             {                
                 string sql = string.Format("insert into car values(car_SEQ.nextval, "
-                    + "'{0}',{1}, '{2}','{3}', '{4}')", car.Model, car.Price, car.Color, car.Year, car.Manufacturer);
+                    + "'{0}','{1}', '{2}','{3}', '{4}')", car.Model, car.Price, car.Color, car.Year, car.Manufacturer);
                 cmd.Connection = conn;
                 cmd.CommandText = sql;
                 cmd.ExecuteNonQuery();
@@ -299,8 +300,8 @@ namespace CarManager0323.DB
         {
             try
             {
-                string sql = string.Format("insert into seller values(car_SEQ.nextval, "
-                    + "'{0}',{1}, '{2}','{3}','{4}')", seller.Name, seller.Tel, seller.Email,seller.Spot,seller.Business);
+                string sql = string.Format("insert into seller values(seller_SEQ.nextval, "
+                    + "'{0}','{1}', '{2}','{3}','{4}')", seller.Name, seller.Tel, seller.Email,seller.Spot,seller.Business);
                 cmd.Connection = conn;
                 cmd.CommandText = sql;
                 cmd.ExecuteNonQuery();
@@ -315,7 +316,7 @@ namespace CarManager0323.DB
             try
             {
                 string sql = "insert into customer values (customer_SEQ.nextval," +
-                    "'김순자', '010-1111-2222', '대구 동구 신천2동', 'kimsun@naver.com')";
+                    "'김순자', '대구 동구 신천2동', '010-1111-1111', 'kimsun@naver.com')";
                 cmd.Connection = conn;
                 cmd.CommandText = sql;
                 cmd.ExecuteNonQuery();
@@ -329,8 +330,8 @@ namespace CarManager0323.DB
         {
             try
             {
-                string sql = string.Format("insert into customer values(car_SEQ.nextval, "
-                    + "'{0}',{1}, '{2}','{3}')", customer.Name,customer.Tel,customer.Addr,customer.Email);
+                string sql = string.Format("insert into customer values(customer_SEQ.nextval, "
+                    + "'{0}','{1}', '{2}','{3}')", customer.Name,customer.Addr,customer.Tel,customer.Email);
                 cmd.Connection = conn;
                 cmd.CommandText = sql;
                 cmd.ExecuteNonQuery();
@@ -361,7 +362,101 @@ namespace CarManager0323.DB
                 errorMsg("insertDeal()", e);
             }
         }
+        public void insertDeal(Deal deal)
+        {
+            try
+            {
+                string sql = string.Format("insert into deal" +
+                    "(d_id, d_day, s_id, c_id, v_id)" +
+                "(select deal_SEQ.nextval, sysdate," +
+                "s.s_id, cu.c_id, ca.v_id" +
+                " from seller s natural join customer cu " +
+                "natural join car ca " +
+                "where cu.c_name='{0}' and ca.v_model='{1}' " +
+                "and s.s_name='{2}')",deal.Customer.Name,deal.Car.Model,deal.Seller.Name);
+                cmd.Connection = conn;
+                cmd.CommandText = sql;
+                cmd.ExecuteNonQuery();
+            }
+            catch (OracleException e)
+            {
+                errorMsg("insertDeal()", e);
+            }
+        }
+        public void insertDeal(Customer cust, Car car, Seller seller)
+        {
+            try
+            {
+                string sql = string.Format("insert into deal values(DEAL_SEQ.nextval, sysdate," +
+                "(select s_id from seller where s_name='{0}' " + "and s_tel='{1}')" +
+                "(select v_id from car where v_model = '{2}'" + " and v_price = {3})," +
+                "(select c_id from customer where c_name = '{4}'" + " and c_tel = '{5}'))",
+                    seller.Name, seller.Tel, car.Model, car.Price, cust.Name, cust.Tel);
+                cmd.Connection = conn;
+                cmd.CommandText = sql;
+                cmd.ExecuteNonQuery();
+            }
+            catch (OracleException e)
+            {
+                errorMsg("insertDeal()", e);
+            }
+        }
+
+        public List<DealResult> selectDeal()
+        {
+            List<DealResult> dReultList = new List<DealResult>();
+            try
+            {
+                int count = 1;
+                String query = "select cu.c_name, ca.v_model, ca.v_price, se.s_name,d.d_day " +
+                    "from deal d, car ca, customer cu, seller se " +
+                    "WHERE d.v_id = ca.v_id and d.c_id = cu.c_id and d.s_id = se.s_id";
+                cmd.Connection = conn;
+                cmd.CommandText = query;
+                cmd.CommandType = System.Data.CommandType.Text;
+                OracleDataReader reader = cmd.ExecuteReader();
+
+
+                if (reader.HasRows)
+                {
+                    while (reader.Read())
+                    {
+                        Console.WriteLine("번호:" + count);
+                        Console.WriteLine("고객명:" + reader["c_name"]);
+                        Console.WriteLine("모델:" + reader["v_model"]);
+                        string price = reader["v_price"].ToString();
+                        double dPrice = Convert.ToDouble(price);
+                        NumberFormatInfo numFormat = new CultureInfo("ko-KR", false).NumberFormat;
+                        price = dPrice.ToString("c", numFormat);
+                        Console.WriteLine("가격:" + price);
+                        Console.WriteLine("판매자:" + reader["s_name"]);
+                        Console.WriteLine("구매날짜:" + reader["d_day"]);
+                        Console.WriteLine("---------------------------");
+                        DealResult dResult = new DealResult(count,
+                            reader["c_name"].ToString(),
+                            reader["v_model"].ToString(), price, reader["s_name"].ToString(),
+                            reader["d_day"].ToString());
+                        dReultList.Add(dResult);
+                        count++;
+
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("데이터가 존재하지 않습니다.");
+                    return null;
+                }
+                reader.Close();
+            }
+            catch (OracleException e)
+            {
+                errorMsg("selectDeal()", e);
+            }
+            return dReultList;
+        }
+    }
 
     }
-}
+
+
     

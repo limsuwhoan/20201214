@@ -51,12 +51,11 @@ namespace CarManager0323
         }
 
         private void uiSymbolButton1_Click(object sender, EventArgs e)
-        {/*
+        {
             ora.insertCar();
             ora.insertCustomer();
             ora.insertSeller();
-            ora.insertDeal();*/
-        
+            ora.insertDeal();
         }
 
         private void insertCar_Click(object sender, EventArgs e)
@@ -89,16 +88,6 @@ namespace CarManager0323
         private void appExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
-        }
-
-        private void uiSymbolButton2_Click(object sender, EventArgs e)
-        {
-            new DealinsForm(ora, dHandler).ShowDialog();
-        }
-
-        private void uiSymbolButton1_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

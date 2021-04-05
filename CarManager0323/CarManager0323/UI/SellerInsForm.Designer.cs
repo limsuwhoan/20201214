@@ -1,7 +1,7 @@
 ﻿
 namespace CarManager0323.UI
 {
-    partial class SellerInsFormcs
+    partial class SellerInsForm
     {
         /// <summary>
         /// Required designer variable.

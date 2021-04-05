@@ -1,4 +1,5 @@
 ﻿using CarManager0323.DB;
+using CarManager0323.Handler;
 using CarManager0323.Model;
 using MaterialSkin.Controls;
 using System;
@@ -13,17 +14,24 @@ using System.Windows.Forms;
 
 namespace CarManager0323.UI
 {
-     partial class SellerInsFormcs : MaterialForm
+     partial class SellerInsForm : MaterialForm
     {
         private DaoOracle oracle;
-        public SellerInsFormcs()
+        private DealHandler dHandler;
+        public SellerInsForm()
         {
             InitializeComponent();
         }
-        public SellerInsFormcs(DaoOracle oracle)
+        public SellerInsForm(DaoOracle oracle)
         {
             InitializeComponent();
             this.oracle = oracle;
+        }
+        public SellerInsForm(DaoOracle oracle, DealHandler dHandler)
+        {
+            InitializeComponent();
+            this.oracle = oracle;
+            this.dHandler = dHandler;
         }
 
         private void SellerInsFormcs_Load(object sender, EventArgs e)
@@ -40,6 +48,7 @@ namespace CarManager0323.UI
                 MessageBox.Show("누락된 정보가 있습니다.\n" + "올바르게 입력하세요.");
                 return;
             }
+            List<Deal> list = dHandler.getDealList();
             try
             {
                 Seller seller = new Seller(
@@ -48,6 +57,7 @@ namespace CarManager0323.UI
                     sellEmail.Text,
                     sellSpot.Text,
                     sellBusiness.Text);
+                list[0].Seller = seller;
                 oracle.insertSeller(seller);
                 Close();
             }
