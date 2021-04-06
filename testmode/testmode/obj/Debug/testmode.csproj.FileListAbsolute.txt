@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\20201214\testmode\testmode\bin\Debug\testmode.exe.config
+C:\Users\KB\Desktop\20201214\testmode\testmode\bin\Debug\testmode.exe
+C:\Users\KB\Desktop\20201214\testmode\testmode\bin\Debug\testmode.pdb
+C:\Users\KB\Desktop\20201214\testmode\testmode\obj\Debug\testmode.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\testmode\testmode\obj\Debug\testmode.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\testmode\testmode\obj\Debug\testmode.exe
+C:\Users\KB\Desktop\20201214\testmode\testmode\obj\Debug\testmode.pdb

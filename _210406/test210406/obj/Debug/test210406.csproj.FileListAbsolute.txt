@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\20201214\_210406\test210406\bin\Debug\test210406.exe.config
+C:\Users\KB\Desktop\20201214\_210406\test210406\bin\Debug\test210406.exe
+C:\Users\KB\Desktop\20201214\_210406\test210406\bin\Debug\test210406.pdb
+C:\Users\KB\Desktop\20201214\_210406\test210406\obj\Debug\test210406.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\_210406\test210406\obj\Debug\test210406.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\_210406\test210406\obj\Debug\test210406.exe
+C:\Users\KB\Desktop\20201214\_210406\test210406\obj\Debug\test210406.pdb
