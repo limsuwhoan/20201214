@@ -1,0 +1,7 @@
+C:\Users\KB\Desktop\20201214\chapter04\chapter04\bin\Debug\chapter04.exe.config
+C:\Users\KB\Desktop\20201214\chapter04\chapter04\bin\Debug\chapter04.exe
+C:\Users\KB\Desktop\20201214\chapter04\chapter04\bin\Debug\chapter04.pdb
+C:\Users\KB\Desktop\20201214\chapter04\chapter04\obj\Debug\chapter04.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\chapter04\chapter04\obj\Debug\chapter04.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\chapter04\chapter04\obj\Debug\chapter04.exe
+C:\Users\KB\Desktop\20201214\chapter04\chapter04\obj\Debug\chapter04.pdb
