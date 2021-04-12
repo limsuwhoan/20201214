@@ -12,21 +12,34 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
+        Random r = new Random();
+        int a;
         public Form1()
         {
             InitializeComponent();
+            a = r.Next(1, 10);
         }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
-            String str = textBox1.Text;
-            if (str.Trim().Length > 0)
+            if (a == int.Parse(textBox1.Text))
             {
-                MessageBox.Show(str);
+                MessageBox.Show("정답입니다");
+                a = r.Next(1, 10);
+            }
+            if (a > int.Parse(textBox1.Text))
+            {
+                MessageBox.Show("입력받은 수보다 큽니다");
+            }
+            if (a < int.Parse(textBox1.Text))
+            {
+                MessageBox.Show("입력받은 수보다 작습니다");
             }
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
 
-
+        }
     }
 }

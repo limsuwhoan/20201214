@@ -1,0 +1,9 @@
+C:\Users\KB\Desktop\20201214\slmtest\bin\Debug\slmtest.exe.config
+C:\Users\KB\Desktop\20201214\slmtest\bin\Debug\slmtest.exe
+C:\Users\KB\Desktop\20201214\slmtest\bin\Debug\slmtest.pdb
+C:\Users\KB\Desktop\20201214\slmtest\obj\Debug\slmtest.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\slmtest\obj\Debug\slmtest.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\slmtest\obj\Debug\slmtest.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\slmtest\obj\Debug\slmtest.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\slmtest\obj\Debug\slmtest.exe
+C:\Users\KB\Desktop\20201214\slmtest\obj\Debug\slmtest.pdb
