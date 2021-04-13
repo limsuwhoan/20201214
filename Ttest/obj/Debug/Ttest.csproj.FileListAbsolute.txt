@@ -1,0 +1,9 @@
+C:\Users\KB\Desktop\20201214\Ttest\bin\Debug\Ttest.exe.config
+C:\Users\KB\Desktop\20201214\Ttest\bin\Debug\Ttest.exe
+C:\Users\KB\Desktop\20201214\Ttest\bin\Debug\Ttest.pdb
+C:\Users\KB\Desktop\20201214\Ttest\obj\Debug\Ttest.Form1.resources
+C:\Users\KB\Desktop\20201214\Ttest\obj\Debug\Ttest.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\Ttest\obj\Debug\Ttest.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\Ttest\obj\Debug\Ttest.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\Ttest\obj\Debug\Ttest.exe
+C:\Users\KB\Desktop\20201214\Ttest\obj\Debug\Ttest.pdb

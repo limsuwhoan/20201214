@@ -1,0 +1,9 @@
+C:\Users\KB\Desktop\20201214\4test\bin\Debug\4test.exe.config
+C:\Users\KB\Desktop\20201214\4test\bin\Debug\4test.exe
+C:\Users\KB\Desktop\20201214\4test\bin\Debug\4test.pdb
+C:\Users\KB\Desktop\20201214\4test\obj\Debug\_4test.Form1.resources
+C:\Users\KB\Desktop\20201214\4test\obj\Debug\_4test.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\4test\obj\Debug\4test.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\4test\obj\Debug\4test.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\4test\obj\Debug\4test.exe
+C:\Users\KB\Desktop\20201214\4test\obj\Debug\4test.pdb

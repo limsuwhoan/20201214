@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\20201214\over\bin\Debug\over.exe.config
+C:\Users\KB\Desktop\20201214\over\bin\Debug\over.exe
+C:\Users\KB\Desktop\20201214\over\bin\Debug\over.pdb
+C:\Users\KB\Desktop\20201214\over\obj\Debug\over.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\over\obj\Debug\over.Form1.resources
+C:\Users\KB\Desktop\20201214\over\obj\Debug\over.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\over\obj\Debug\over.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\over\obj\Debug\over.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\over\obj\Debug\over.exe
+C:\Users\KB\Desktop\20201214\over\obj\Debug\over.pdb

@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\20201214\chapter6\bin\Debug\chapter6.exe.config
+C:\Users\KB\Desktop\20201214\chapter6\bin\Debug\chapter6.exe
+C:\Users\KB\Desktop\20201214\chapter6\bin\Debug\chapter6.pdb
+C:\Users\KB\Desktop\20201214\chapter6\obj\Debug\chapter6.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\chapter6\obj\Debug\chapter6.Form1.resources
+C:\Users\KB\Desktop\20201214\chapter6\obj\Debug\chapter6.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\chapter6\obj\Debug\chapter6.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\chapter6\obj\Debug\chapter6.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\chapter6\obj\Debug\chapter6.exe
+C:\Users\KB\Desktop\20201214\chapter6\obj\Debug\chapter6.pdb

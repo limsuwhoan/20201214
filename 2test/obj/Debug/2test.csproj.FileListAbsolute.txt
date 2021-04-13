@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\20201214\2test\bin\Debug\2test.exe.config
+C:\Users\KB\Desktop\20201214\2test\bin\Debug\2test.exe
+C:\Users\KB\Desktop\20201214\2test\bin\Debug\2test.pdb
+C:\Users\KB\Desktop\20201214\2test\obj\Debug\2test.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\2test\obj\Debug\_2test.Form1.resources
+C:\Users\KB\Desktop\20201214\2test\obj\Debug\_2test.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\2test\obj\Debug\2test.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\2test\obj\Debug\2test.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\2test\obj\Debug\2test.exe
+C:\Users\KB\Desktop\20201214\2test\obj\Debug\2test.pdb
