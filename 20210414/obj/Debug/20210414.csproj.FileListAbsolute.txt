@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\20201214\20210414\bin\Debug\20210414.exe.config
+C:\Users\KB\Desktop\20201214\20210414\bin\Debug\20210414.exe
+C:\Users\KB\Desktop\20201214\20210414\bin\Debug\20210414.pdb
+C:\Users\KB\Desktop\20201214\20210414\obj\Debug\20210414.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\20210414\obj\Debug\_20210414.Form1.resources
+C:\Users\KB\Desktop\20201214\20210414\obj\Debug\_20210414.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\20210414\obj\Debug\20210414.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\20210414\obj\Debug\20210414.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\20210414\obj\Debug\20210414.exe
+C:\Users\KB\Desktop\20201214\20210414\obj\Debug\20210414.pdb

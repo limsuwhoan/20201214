@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\20201214\recuasive\obj\Debug\recuasive.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\recuasive\obj\Debug\recuasive.Form1.resources
+C:\Users\KB\Desktop\20201214\recuasive\obj\Debug\recuasive.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\recuasive\obj\Debug\recuasive.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\recuasive\obj\Debug\recuasive.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\recuasive\bin\Debug\recuasive.exe.config
+C:\Users\KB\Desktop\20201214\recuasive\bin\Debug\recuasive.exe
+C:\Users\KB\Desktop\20201214\recuasive\bin\Debug\recuasive.pdb
+C:\Users\KB\Desktop\20201214\recuasive\obj\Debug\recuasive.exe
+C:\Users\KB\Desktop\20201214\recuasive\obj\Debug\recuasive.pdb

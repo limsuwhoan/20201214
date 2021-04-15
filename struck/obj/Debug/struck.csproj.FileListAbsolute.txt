@@ -1,0 +1,10 @@
+C:\Users\KB\Desktop\20201214\struck\bin\Debug\struck.exe.config
+C:\Users\KB\Desktop\20201214\struck\bin\Debug\struck.exe
+C:\Users\KB\Desktop\20201214\struck\bin\Debug\struck.pdb
+C:\Users\KB\Desktop\20201214\struck\obj\Debug\struck.Form1.resources
+C:\Users\KB\Desktop\20201214\struck\obj\Debug\struck.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\struck\obj\Debug\struck.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\struck\obj\Debug\struck.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\struck\obj\Debug\struck.exe
+C:\Users\KB\Desktop\20201214\struck\obj\Debug\struck.pdb
+C:\Users\KB\Desktop\20201214\struck\obj\Debug\struck.csprojAssemblyReference.cache
