@@ -1,0 +1,68 @@
+[2021-04-16 12:47:39]3번 버튼 클릭
+[2021-04-16 14:05:15]1번 버튼 클릭
+[2021-04-16 14:05:16]2번 버튼 클릭
+[2021-04-16 14:05:16]3번 버튼 클릭
+[2021-04-16 14:05:17]1번 버튼 클릭
+[2021-04-16 14:05:17]2번 버튼 클릭
+[2021-04-16 14:05:17]3번 버튼 클릭
+[2021-04-16 14:05:18]3번 버튼 클릭
+[2021-04-16 14:05:18]1번 버튼 클릭
+[2021-04-16 14:05:18]2번 버튼 클릭
+[2021-04-16 14:14:39]1번 버튼 클릭
+[2021-04-16 14:14:40]2번 버튼 클릭
+[2021-04-16 14:14:41]1번 버튼 클릭
+[2021-04-16 14:14:41]2번 버튼 클릭
+[2021-04-16 14:14:41]1번 버튼 클릭
+[2021-04-16 14:14:41]2번 버튼 클릭
+[2021-04-16 14:14:41]1번 버튼 클릭
+[2021-04-16 14:14:42]2번 버튼 클릭
+[2021-04-16 14:14:42]2번 버튼 클릭
+[2021-04-16 14:14:43]1번 버튼 클릭
+[2021-04-16 14:14:43]2번 버튼 클릭
+[2021-04-16 14:14:43]2번 버튼 클릭
+[2021-04-16 14:29:36]1번 버튼 클릭
+[2021-04-16 14:29:36]2번 버튼 클릭
+[2021-04-16 14:29:37]1번 버튼 클릭
+[2021-04-16 14:29:37]2번 버튼 클릭
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+'D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
+[2021-04-16 16:43:16]1번 버튼 클릭
+[2021-04-16 16:43:16]2번 버튼 클릭
+'C:\Users\KB\Desktop\20201214\Managing_Car_Program\Managing_Car_Program\bin\Debug\Cars.xml' 파일을 찾을 수 없습니다.
+   위치: System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   위치: System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)
+   위치: System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize, Boolean checkHost)
+   위치: System.IO.File.InternalReadAllText(String path, Encoding encoding, Boolean checkHost)
+   위치: System.IO.File.ReadAllText(String path)
+   위치: Managing_Car_Program.Datamanger.Load() 파일 D:\Study_DJ\20201126_all\djlee\20210416\Managing_Car_Program\Managing_Car_Program\Datamanger.cs:줄 31
