@@ -51,14 +51,14 @@ namespace Managing_Car_Program
             this.label5 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.listBox1 = new System.Windows.Forms.ListBox();
             this.parkingSpotDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.carNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.driverNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.phoneNumberDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.parkingTimeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.parkingCarBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.statusStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -167,6 +167,7 @@ namespace Managing_Car_Program
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(75, 21);
             this.textBox1.TabIndex = 4;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label4
             // 
@@ -252,15 +253,6 @@ namespace Managing_Car_Program
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "주차 현황";
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 12;
-            this.listBox1.Location = new System.Drawing.Point(13, 357);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(670, 76);
-            this.listBox1.TabIndex = 4;
-            // 
             // dataGridView1
             // 
             this.dataGridView1.AutoGenerateColumns = false;
@@ -277,10 +269,17 @@ namespace Managing_Car_Program
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.Size = new System.Drawing.Size(655, 165);
             this.dataGridView1.TabIndex = 12;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
+          
             // 
-            // parkingCarBindingSource
+            // listBox1
             // 
-            this.parkingCarBindingSource.DataSource = typeof(Managing_Car_Program.ParkingCar);
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 12;
+            this.listBox1.Location = new System.Drawing.Point(13, 357);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(670, 76);
+            this.listBox1.TabIndex = 4;
             // 
             // parkingSpotDataGridViewTextBoxColumn
             // 
@@ -311,6 +310,10 @@ namespace Managing_Car_Program
             this.parkingTimeDataGridViewTextBoxColumn.DataPropertyName = "parkingTime";
             this.parkingTimeDataGridViewTextBoxColumn.HeaderText = "주차출차시간";
             this.parkingTimeDataGridViewTextBoxColumn.Name = "parkingTimeDataGridViewTextBoxColumn";
+            // 
+            // parkingCarBindingSource
+            // 
+            this.parkingCarBindingSource.DataSource = typeof(Managing_Car_Program.ParkingCar);
             // 
             // Form1
             // 

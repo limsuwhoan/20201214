@@ -1,12 +1,12 @@
 <cars>
 <car>
-   <parkingSpot>1</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime></parkingTime></car>
+   <parkingSpot>1</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime>2021-04-19 오후 12:27:47</parkingTime></car>
 <car>
-   <parkingSpot>2</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime></parkingTime></car>
+   <parkingSpot>2</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime>2021-04-19 오후 12:29:35</parkingTime></car>
 <car>
-   <parkingSpot>3</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime></parkingTime></car>
+   <parkingSpot>3</parkingSpot>   <carNumber>30고9483</carNumber>   <driverName>임수환</driverName>   <phoneNumber>010-2930-1412</phoneNumber>   <parkingTime>2021-04-19 오후 12:28:15</parkingTime></car>
 <car>
-   <parkingSpot>4</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime></parkingTime></car>
+   <parkingSpot>4</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime>2021-04-19 오후 12:28:39</parkingTime></car>
 <car>
-   <parkingSpot>5</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime></parkingTime></car>
+   <parkingSpot>5</parkingSpot>   <carNumber></carNumber>   <driverName></driverName>   <phoneNumber></phoneNumber>   <parkingTime>2021-04-19 오전 10:28:39</parkingTime></car>
 </cars>

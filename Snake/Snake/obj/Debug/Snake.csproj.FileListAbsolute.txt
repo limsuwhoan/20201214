@@ -1,0 +1,20 @@
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\obj\Debug\Snake.Form1.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\KB\Documents\카카오톡 받은 파일\Snake\Snake\obj\Debug\Snake.pdb
+C:\Users\KB\Desktop\Snake\Snake\bin\Debug\Snake.exe.config
+C:\Users\KB\Desktop\Snake\Snake\bin\Debug\Snake.exe
+C:\Users\KB\Desktop\Snake\Snake\bin\Debug\Snake.pdb
+C:\Users\KB\Desktop\Snake\Snake\obj\Debug\Snake.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\Snake\Snake\obj\Debug\Snake.Form1.resources
+C:\Users\KB\Desktop\Snake\Snake\obj\Debug\Snake.Properties.Resources.resources
+C:\Users\KB\Desktop\Snake\Snake\obj\Debug\Snake.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\Snake\Snake\obj\Debug\Snake.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\Snake\Snake\obj\Debug\Snake.exe
+C:\Users\KB\Desktop\Snake\Snake\obj\Debug\Snake.pdb
