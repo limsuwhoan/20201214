@@ -103,3 +103,12 @@ C:\Users\KB\Desktop\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle
 C:\Users\KB\Desktop\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle.csproj.CoreCompileInputs.cache
 C:\Users\KB\Desktop\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle.exe
 C:\Users\KB\Desktop\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle.pdb
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\bin\Debug\puzzle.exe
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\bin\Debug\puzzle.pdb
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle.csprojAssemblyReference.cache
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\WindowsFormsApplication1.frmPuzzleGame.resources
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle.csproj.GenerateResource.cache
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle.csproj.CoreCompileInputs.cache
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle.exe
+C:\Users\KB\Desktop\20201214\Desktop (2)\Picture Puzzle Game\Image Puzzle\puzzle\obj\x86\Debug\puzzle.pdb
